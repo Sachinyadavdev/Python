@@ -23,3 +23,7 @@ f = int(e)
 print(f)
 print(type(f))
 
+g = float(f)
+print(g)
+print(type(g))
+
