@@ -13,13 +13,23 @@
 # print(average1)
 
 
-def average(a, b, c):
-    d = (a + b + c)/3.0
-    # print(d)
-    return d
+# def average(a, b, c):
+#     d = (a + b + c)/3.0
+#     # print(d)
+#     return d
 
-o1 = average(3, 5, 1)
-o2 = average(4, 2, 1)
+# o1 = average(3, 5, 1)
+# o2 = average(4, 2, 1)
 
-print(o1)
-print(o2)
+# print(o1)
+# print(o2)
+
+def sum (a,b):
+    return a + b
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+result = sum(num1, num2)
+
+print(result)
