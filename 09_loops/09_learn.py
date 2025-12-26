@@ -148,3 +148,12 @@ num = str(num)[::-1]
 
 print(int(num))
 
+
+num = 78
+
+num = str (num)
+
+num = str( print (num[1],num[0],sep="") )
+
+
+

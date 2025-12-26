@@ -24,8 +24,26 @@ a = len(s)
 # print(text.split(","))
 # print(",".join(['Apples', 'Bananas', 'Pineapples']))
 
-text = "Python123"
-print(text.isalpha()) # Output: False
-print(text.isdigit()) # Output: False
-print(text.isalnum()) # Output: True
-print(text.isspace()) # Output: False
+# text = "Python123"
+# print(text.isalpha()) # Output: False
+# print(text.isdigit()) # Output: False
+# print(text.isalnum()) # Output: True
+# print(text.isspace()) # Output: False
+
+name = "  Sachin Yadav  "
+text = "Apples, Bananas, Pineapples"
+
+print(len(name))
+
+print(name.upper())
+print(name.lower())
+print(name.capitalize())
+print(name.title())
+print(name.strip())
+print(name.lstrip())
+print(name.rstrip())
+print(name.find("adav"))
+print(name.replace("Yadav", "Rathod"))
+
+print(text.split(","))
+print(",".join(['Apples', 'Bananas', 'Pineapples']))

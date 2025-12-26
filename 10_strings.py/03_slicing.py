@@ -10,3 +10,12 @@ print(name[0:10:3]) # Skip 3-1 ie 2 characters
 
 print(name[:4]) # Replace the first empty number with 0 # name[0:4]
 print(name[1:]) # Replace the second empty number with length # name[1:15]
+
+# Practicing the Slicing 
+
+name2 = "Sachin Yadav"
+
+print(name2[0:6:2])
+
+print(name2[:5])
+print(name2[2:])
