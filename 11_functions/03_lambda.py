@@ -13,3 +13,7 @@ def sum(x, y):
 
 print(square(3))
 print(sum(3, 62))
+
+multiply = lambda x,y: x*y
+
+print(multiply(4, 5))
