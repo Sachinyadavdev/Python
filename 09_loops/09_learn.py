@@ -100,3 +100,51 @@
 
 # Problem 7
 
+# for i in range (1, 5):
+#     print("*"*i)
+
+
+# Problem 8
+
+# correct_password = "secure123"
+# password = ""
+# print("Welcome to the secure system.")
+# password = input("Enter your password: ")
+
+# if password != correct_password:
+#     while password != correct_password:
+#         print("Access denied")
+#         password = input("Enter your password Again: ")   
+#     print("Access granted")
+# elif password == correct_password:
+#     print("Access granted")
+       
+
+# correct_password = "secure123"
+# password = ""
+# print("Welcome to the secure system.")
+# password = input("Enter your password: ")
+
+
+# if password != correct_password:
+    
+#     for i in range(1, 5):
+#         print("Access denied")
+#         i +=1
+       
+#         password = input("Enter your password Again: ")  
+#         if password == correct_password:
+#             break 
+#     print("Access granted")
+# elif password == correct_password:
+#     print("Access granted")
+
+
+# 123
+
+num = 12398785 
+
+num = str(num)[::-1]
+
+print(int(num))
+
