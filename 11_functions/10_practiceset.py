@@ -65,4 +65,4 @@ def sum_number(n):
     else:
         return n%10 + sum_number(n//10)
 
-print("Sum of digits is:", sum_number(98))
+print("Sum of digits is:", sum_number(918))
