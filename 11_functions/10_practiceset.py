@@ -1,3 +1,5 @@
+import math
+
 # Problem 1
 
 def greet(name):
@@ -66,3 +68,10 @@ def sum_number(n):
         return n%10 + sum_number(n//10)
 
 print("Sum of digits is:", sum_number(918))
+
+# Problem 9
+
+num = int(input("Enter a number: "))
+
+print("The Square of the number is: ", math.sqrt(num))
+print("The value of sine is: ", math.sin(num))
