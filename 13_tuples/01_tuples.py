@@ -8,4 +8,7 @@ b = (3, )
 
 print(type(b))
 
-c =
+
+c = ("Sachin", 45, 5.6, True,)
+
+print(c)
