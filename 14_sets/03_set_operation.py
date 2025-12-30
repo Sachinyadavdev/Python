@@ -6,3 +6,4 @@ print(c)
 
 d = a.intersection(b) # Contains only the elements that are present in a as well as b
 print(d)
+
