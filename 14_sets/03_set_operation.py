@@ -7,3 +7,11 @@ print(c)
 d = a.intersection(b) # Contains only the elements that are present in a as well as b
 print(d)
 
+sachin = {"cricket", "football", "badminton"}
+rahul = {"cricket", "hockey", "tennis"}
+
+both = sachin.intersection(rahul)
+print(both)
+
+together = sachin.union(rahul)
+print(together)
