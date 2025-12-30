@@ -5,3 +5,7 @@ print(a[2])
 # a[3] = 32   # You can't able to modify tuples elements 
 
 b = (3, )
+
+print(type(b))
+
+c =
