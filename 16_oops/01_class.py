@@ -15,3 +15,15 @@ print(e1.get_salary()) # Employee e's get salary method is called
 e2 = Employee()
 print(e2.get_salary())
 print(e2.company)
+
+class Programmer():
+    company = "Microsoft"
+
+    def get_salary(self):
+        return 55000
+    def get_bonus(self):
+        return 5000
+    
+p1 = Programmer()
+print(p1.get_salary())
+print(p1.get_bonus())
