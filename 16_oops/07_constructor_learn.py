@@ -18,3 +18,12 @@ print(e1.employee_details())
 
 
 # Testing
+
+
+class Animal:
+    def __init__(self):
+        print("Animal Constructor Called")
+
+a1 = Animal()
+
+print(a1)
