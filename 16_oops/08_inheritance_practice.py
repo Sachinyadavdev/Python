@@ -43,3 +43,6 @@ bird2 = Bird("Tweety", "Canary")
 
 print(bird1.speak())  # Output: Polly chirps, and is a Parrot
 print(bird2.speak())  # Output: Tweety chirps, and is a
+
+# Testing the Code in the inheritance
+
