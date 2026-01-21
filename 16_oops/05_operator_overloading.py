@@ -18,3 +18,4 @@ p2 = Point(6, 3)
 # p = p1.sum(p2) # Returns a new point which is sum of p1 and p2
 p = p1 + p2 # We overloaded the + Operator by writing __add__ function
 p.print_point()
+
