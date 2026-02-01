@@ -22,3 +22,5 @@ e = Employee("Jack Doe", 34555)
 print(e.first_name)
 e.first_name = "John"
 print(e.name)
+
+# Getter and Setter Practice 
