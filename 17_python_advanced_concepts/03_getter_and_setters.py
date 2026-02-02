@@ -24,3 +24,27 @@ e.first_name = "John"
 print(e.name)
 
 # Getter and Setter Practice 
+
+class Student:
+    def __init__ (self, name, grade):
+        self.name = name
+        self.grade = grade
+
+    @property
+    def grade(self):
+        return self._grade
+    @grade.setter
+    def grade(self, value):
+        if value < 0:
+            self._grade = 0
+        elif value > 100:
+            self._grade = 100
+        else:
+            self._grade = value
+
+s = Student("Alice", 105)
+print(s.grade)  # Output: 100
+
+s.grade = -10
+print(s.grade)  # Output: 0
+
