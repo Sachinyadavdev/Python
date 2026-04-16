@@ -23,3 +23,7 @@ print(type(name))
 is_completed = True # can also be False
 print(is_completed)
 print(type(is_completed))
+
+dict1 = {"name": "Geetha", "age":25, "is_student": True, "Address": "Chennai"}
+print(dict1)
+print(type(dict1))
