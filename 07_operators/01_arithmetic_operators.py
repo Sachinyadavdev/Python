@@ -10,4 +10,6 @@ print("a / b = ", a / b)
 print("a % b = ", a % b)
 print("a // b = ", a // b)
 print("a ** b = ", a ** b)
- 
+
+sum = 34*34
+print("sum = ", sum)

@@ -34,7 +34,7 @@ o= message.count("o")
 u= message.count("u")
 
 sum = a + e + i + o + u
-print("Total number of vowels in the text is :", sum)
+print("Total number of vowels in the text is : ", sum)
 
 
 # Checking the Palindrome
@@ -46,5 +46,5 @@ if text2 == text2[::-1]:
 else:
     print("The text is not Palindrome")
 
-    
+
 

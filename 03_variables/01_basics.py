@@ -16,3 +16,11 @@ age = 32 # Valid because variable can start with a number
 __age = 34
 __nice_45 = 34
 a_b_c_7 = "Sam"
+
+print(age)
+print(name) 
+print(cgpa)
+
+print(__age)
+print(__nice_45)    
+print(a_b_c_7)

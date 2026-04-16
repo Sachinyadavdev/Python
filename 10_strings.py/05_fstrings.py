@@ -17,3 +17,8 @@ name = "sachin"
 age = 25
 
 print(f"Hello, My name is {name} and I and {age} years old.") 
+
+emp_name = "Geetha"
+age = 25
+
+print(f"Hello, My name is {emp_name} and I and {age} years old.")

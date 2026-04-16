@@ -19,3 +19,8 @@ print(name2[0:6:2])
 
 print(name2[:5])
 print(name2[2:])
+
+
+Para2 = "This is a string slicing example"
+
+print(Para2[0:40:2])

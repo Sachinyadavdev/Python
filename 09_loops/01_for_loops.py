@@ -9,3 +9,7 @@
 
 for i in range(1, 11):
     print("5 X", i, "=",  5*i)
+
+for x in range (1, 11):
+    print("My Name is Sachin")
+    

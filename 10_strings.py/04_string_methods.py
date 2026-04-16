@@ -45,5 +45,6 @@ print(name.rstrip())
 print(name.find("adav"))
 print(name.replace("Yadav", "Rathod"))
 
-print(text.split(","))
-print(",".join(['Apples', 'Bananas', 'Pineapples']))
+print(text.split(",")) # Output: ['Apples', ' Bananas', ' Pineapples']
+print(",".join(['Apples', 'Bananas', 'Pineapples'])) # Output: "Apples,Bananas,Pineapples"
+print(",".join(text)) # Output: "Apples,Bananas,Pineapples"
