@@ -21,3 +21,18 @@ def f():
     print("Hello!")
     print("I have executed this function....")
 '''
+
+def test_decorator(func):
+    def wrapper(*args, **kwargs):
+        print("Before executing the function...")
+        result = func(*args, **kwargs)
+        print(result)
+        print("After executing the function...")
+        return result
+    return wrapper
+
+@test_decorator
+def add(a, b):
+    return a + b
+
+add(3, 5)

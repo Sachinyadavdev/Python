@@ -21,3 +21,14 @@ while names.count("Rohan") > 0:
       names.remove("Rohan")
 
 print(names)
+
+group = ["Sachin", "Rohan", "Shivani", "Rohan", "Alice", "Mohan"]
+print(group)
+
+while group.count("Rohan") > 0:
+      group.remove("Rohan")
+
+print(group)
+
+group.pop(2)
+print(group)
