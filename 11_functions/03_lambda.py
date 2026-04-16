@@ -17,3 +17,7 @@ print(sum(3, 62))
 multiply = lambda x,y: x*y
 
 print(multiply(4, 5))
+
+cude = lambda x: x**3
+
+print(cude(3))

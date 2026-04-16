@@ -24,12 +24,27 @@
 # print(o1)
 # print(o2)
 
-def sum (a,b):
-    return a + b
+# Function to find the sum of two numbers
 
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
+# def sum (a,b):
+#     return a + b
 
-result = sum(num1, num2)
+# num1 = int(input("Enter first number: "))
+# num2 = int(input("Enter second number: "))
 
+# result = sum(num1, num2)
+
+# print(result)
+
+
+def average(a,b,c):
+    return (a + b + c)/3.0
+
+
+a1 = int(input("Enter first number: "))
+b1 = int(input("Enter second number: "))
+c1 = int(input("Enter third number: "))
+
+result = average(a1, b1, c1)
 print(result)
+

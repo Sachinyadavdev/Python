@@ -41,6 +41,10 @@ print("Total number of vowels in the text is : ", sum)
 
 text2 = input("Enter the text to check palindrome: ")
 
+# To lower case 
+text2 = text2.lower()
+
+
 if text2 == text2[::-1]:
     print("The text is Palindrome")
 else:
