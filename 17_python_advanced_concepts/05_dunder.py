@@ -19,3 +19,21 @@ print(len(e))
 # print(e.name, e.salary)
 # print(str(e))
 # print(repr(e))
+
+# Practice 
+
+class Comapny:
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location    
+
+    def __str__(self):
+        return f"The name of the company is {self.name} and the location is {self.location}"
+    
+    def __len__(self):
+        return len(self.name)
+    
+c = Comapny("Google", "California")
+print(c)
+print(len(c))
+print(str(c))
