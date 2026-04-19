@@ -36,3 +36,29 @@ e2 = Employee("Jill", 34355)
 print(Employee.company)
 e1.change_company("Acer")
 print(Employee.company)
+
+
+# Practice 
+class Company:
+    def __init__(self, name, location):
+        self.name = name
+        self.location = location
+
+    def print_info(self):
+        print(f"The name of the company is {self.name} and the location is {self.location}")
+
+    @staticmethod
+    def sum(a, b):
+        return a+b
+    
+    @classmethod
+    def change_location(cls, new_location):
+        cls.location = new_location
+        print(f"The new location is {cls.location}")
+
+c1 = Company("Google", "California")
+c1.print_info()
+print(Company.sum(5, 10))
+c1.change_location("New York")
+c1.print_info()
+
