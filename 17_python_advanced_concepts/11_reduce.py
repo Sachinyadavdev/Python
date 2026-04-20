@@ -12,3 +12,11 @@ def sum(a, b):
 
 c = reduce(sum, numbers)
 print(c)
+
+#Practice 
+
+def multiply(a, b):
+    return a * b    
+
+d = reduce(multiply, numbers)
+print(d)
