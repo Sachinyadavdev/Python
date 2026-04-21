@@ -1,3 +1,18 @@
 # Ignore the zip files
 *.zip
 
+# Ignore the virtual environment folder
+venv/
+myenv/
+env/
+ENV/
+
+# Ignore Python cache and metadata
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore distribution/build folders
+dist/
+build/
+*.egg-info/
