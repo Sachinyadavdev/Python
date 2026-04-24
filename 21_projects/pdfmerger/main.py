@@ -12,5 +12,5 @@ for i in range(0, n):
 for pdf in pdfs:
     merger.append(pdf)
 
-merger.write("merged-pdf.pdf")
+merger.write("merged-pdf2.pdf")
 merger.close()
