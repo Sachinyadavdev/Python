@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+      body { font-family: Inter, system-ui, sans-serif; }
+      .hero { background: #0d6efd; color: white; min-height: 50vh; }
+      .hero h1 { font-weight: 700; }
+      .feature-icon { width: 52px; height: 52px; display: inline-flex; justify-content: center; align-items: center; border-radius: 14px; background: rgba(255,255,255,0.16); }
+      .card-accent { border-top: 4px solid #0d6efd; }
+      .btn-primary { background-color: #0d6efd; border-color: #0d6efd; }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="/about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero d-flex align-items-center py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <p class="text-uppercase mb-3 text-white-50">About me</p>
+            <h1 class="display-5 fw-bold">I turn ideas into polished web applications.</h1>
+            <p class="lead text-white-75">I specialize in clean Flask backends, responsive Bootstrap interfaces, and practical solutions that help clients launch faster.</p>
+            <a href="/contact" class="btn btn-light btn-lg mt-3">Start a project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm p-4 card-accent">
+              <div class="feature-icon mb-3">👨‍💻</div>
+              <h5>Expertise</h5>
+              <p class="text-muted">Flask, Python, HTML, CSS, Bootstrap, JavaScript, API integration, and deployment best practices.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm p-4 card-accent">
+              <div class="feature-icon mb-3">⚡</div>
+              <h5>Approach</h5>
+              <p class="text-muted">Solve real problems with maintainable code, clear structure, and interfaces that feel fast and intuitive.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 shadow-sm p-4 card-accent">
+              <div class="feature-icon mb-3">🤝</div>
+              <h5>Collaboration</h5>
+              <p class="text-muted">I work closely with clients to understand goals, gather feedback, and deliver polished results on time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <h2 class="fw-bold">About my work</h2>
+            <p class="text-muted">Over the years, I have built landing pages, admin dashboards, and personal portfolio sites that prioritize usability and reliability.</p>
+            <ul class="list-unstyled mt-4">
+              <li class="mb-3"><strong>✔</strong> Responsive design for every screen</li>
+              <li class="mb-3"><strong>✔</strong> Clean Flask routes and template architecture</li>
+              <li class="mb-3"><strong>✔</strong> Deployment-ready applications with minimal overhead</li>
+            </ul>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <div class="card border-0 shadow-sm p-4">
+              <div class="card-body">
+                <h5 class="card-title">Quick facts</h5>
+                <p class="card-text text-muted">I enjoy learning new web standards, experimenting with UI patterns, and making sure the websites I build are easy to maintain.</p>
+                <div class="row text-center mt-4">
+                  <div class="col-4">
+                    <h3 class="mb-0">5+</h3>
+                    <p class="text-muted mb-0">Projects</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="mb-0">100%</h3>
+                    <p class="text-muted mb-0">Responsive</p>
+                  </div>
+                  <div class="col-4">
+                    <h3 class="mb-0">24/7</h3>
+                    <p class="text-muted mb-0">Support</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-white text-center text-muted border-top">
+      <div class="container">
+        <p class="mb-0">© 2026 My Portfolio. Built with Flask and Bootstrap.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
