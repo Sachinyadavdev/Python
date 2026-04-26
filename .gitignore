@@ -16,3 +16,9 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+
+# Ignore Images and MP3 
+*.jpg
+*.jpeg  
+*.png
+*.mp3
