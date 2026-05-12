@@ -24,3 +24,20 @@ elif (score > 69 and score < 80):
 else:
  print ("You are fail")
 
+
+# Task: Create two variables: username and password. Write an if statement that prints "Access Granted" only if the username is "admin" and the password is "12345". Otherwise, print "Access Denied".
+
+username = "admin"
+password = "12345"
+
+input_username = input("Enter Your Username: ")
+input_password = input("Enter Your Password: ")
+
+if (input_username == username and input_password == password):
+  print("Access Granted")
+
+else:
+  print("Access Denied")
+
+
+
