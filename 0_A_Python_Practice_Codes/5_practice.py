@@ -38,6 +38,3 @@ if (input_username == username and input_password == password):
 
 else:
   print("Access Denied")
-
-
-
