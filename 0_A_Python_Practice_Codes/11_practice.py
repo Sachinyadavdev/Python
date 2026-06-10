@@ -19,3 +19,19 @@ def safe_division(a,b):
 
 
 safe_division(a,b)
+
+# Challenge 2: The Integer Guarantee
+# Task: Write a script that asks the user to input a whole number using input().
+
+# Wrap the int() conversion in a try/except block. If the user types letters instead of a number (which triggers a ValueError), print "That is not a valid number!" and set the variable to a default value of 0.
+
+num = input("Enter the Whole Number: ")
+
+try:
+    num = int(num)
+
+except ValueError :
+    print("That is not a valid number! Resetting the number to 0.")
+    num = 0
+
+print("The number is: ",num)
