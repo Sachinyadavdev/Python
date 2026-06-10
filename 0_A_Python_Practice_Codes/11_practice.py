@@ -35,3 +35,26 @@ except ValueError :
     num = 0
 
 print("The number is: ",num)
+
+
+# Challenge 3: The Multiple Exception Net
+# Task: Look at this risky snippet of code:
+
+# Python
+# my_list = [10, 20, 30]
+# user_index = input("Enter an index: ")  # What if they type 'abc'?
+# print(my_list[int(user_index)])         # What if they type '5' (out of range)?
+# Task: Rewrite this code using a try/except block that has two separate except clauses: one specifically targeting ValueError (bad input text) and another targeting IndexError (index doesn't exist in the list).
+
+my_list = [10,20,30]
+
+user_index = input("Enter an index: ")
+
+try:
+    print(my_list[int(user_index)])
+
+except IndexError:
+    print(f"Number out of the index! choose the number between 0 and {len(my_list)}")
+
+except ValueError:
+    print("Enter the whole number and not the text or any decimal number!")
