@@ -13,3 +13,4 @@ print(marks1.keys())
 print(marks1.values())
 marks1.pop("Chemistry")  # removes the key-value pair with key "chemistry"
 print(marks1)     
+
