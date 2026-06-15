@@ -21,6 +21,16 @@ cursor.execute("""
  INSERT INTO students (name, grade) VALUES ('Sachin','A');                             
                """)
 
+# 1. Execute the select query
+cursor.execute("SELECT * FROM students;")
+
+# 2. Use fetchall() to pull the data into a Python list of tuples
+rows = cursor.fetchall() 
+
+# 3. Loop through rows and print them
+for row in rows:
+    print(row) # Each row looks like: (1, 'Sachin', 'A')
+
 # Save (commit) the changes and close the connection
 
 conn.commit()
