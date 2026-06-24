@@ -18,7 +18,7 @@ cursor.execute("""
                """)
 
 cursor.execute("""
- INSERT INTO students (name, grade) VALUES ('Sachin','A');                             
+ INSERT INTO students (name, grade) VALUES ('Rampher','A');                             
                """)
 
 # 1. Execute the select query
