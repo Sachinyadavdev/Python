@@ -17,6 +17,6 @@ def find_second_largest(arr):
     
     return second_largest
 
-my_array = array('i',[90,90])
+my_array = array('i',[90,90,89])
 
 print(find_second_largest(my_array))
