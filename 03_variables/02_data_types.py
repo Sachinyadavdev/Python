@@ -42,3 +42,11 @@ print(num1 ,float_num,string_var,bool_var)
 list1 = [23,54,67,89,45,33]
 print(list1)
 
+tuple1 = (23,56,98,90,55,66,89)
+print(tuple1)
+
+set2 = {89,67,9.3,56,89,9,4}
+print(set2)
+
+dictionary1 = {"Sachin":"komal","Shubham":"Shivangi"}
+print(dictionary1["Shubham"])
