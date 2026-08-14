@@ -50,3 +50,4 @@ print(set2)
 
 dictionary1 = {"Sachin":"komal","Shubham":"Shivangi"}
 print(dictionary1["Shubham"])
+print(type(dictionary1))

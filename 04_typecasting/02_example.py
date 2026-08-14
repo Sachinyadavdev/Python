@@ -15,3 +15,10 @@ pi = 3.14
 pi_int = int(pi)
 print(pi_int) # Output: 3
 print(type(pi_int))
+
+# converting the string to int 
+
+num_string = "35"
+print(type(num_string))
+num_int = int(num_string)
+print(type(num_int))
