@@ -9,4 +9,19 @@ match a:
         print("You won a camera")
     case _:
         print("Better luck next time")
+
+age = 25
+
+match age:
+    case 25:
+        print("Age is 25")
+
+    case 18:
+        print("Age is 18")
+
+    case 10:
+        print("Age is 10")
+
+    case _:
+       print("Printing the Default Case")
     

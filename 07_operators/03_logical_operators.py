@@ -17,3 +17,10 @@ print("Not Operator")
 print(not(True) )      # Return False 
 print(not(False) )     # Return True
 
+# Practice 
+if 5>4 or 4>6:
+    print("If statement is executed for the and opeartor")
+
+else:
+    print("and opeartor has not exceuted")
+

@@ -7,9 +7,16 @@
 # for i in range(1, 6): # range function goes from 1 to (6-1) ie 5 in this case
 #     print(i)
 
-for i in range(1, 11):
-    print("5 X", i, "=",  5*i)
+# for i in range(1, 11):
+#     print("5 X", i, "=",  5*i)
 
-for x in range (1, 11):
-    print("My Name is Sachin")
-    
+# for x in range (1, 11):
+#     print("My Name is Sachin")
+
+# for s in range (25,250):
+#     print(s)
+
+names = ["Mohan", "Sachin", "Panjak", "Rakesh", "Hemmant"]
+
+for name in names:
+    print(name)
