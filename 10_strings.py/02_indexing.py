@@ -16,3 +16,7 @@ print(name[-2])
 print(name[-3])
 print(name[-4]) # name[-4+5] name[1]
 print(name[-5])
+
+name2 = "Sachin"
+print(name2[0:3]) 
+print(name2[4])

@@ -13,3 +13,9 @@ print(name[2])
 
 # Multi Line String
 
+c = """This is a multi line
+string Sachin is a good boy
+Sachin is a good cricketer
+"""
+
+print(c[0:110])
