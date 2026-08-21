@@ -48,3 +48,11 @@ c1 = int(input("Enter third number: "))
 result = average(a1, b1, c1)
 print(result)
 
+def print_num(a,b):
+    print("The Number a is ",a)
+    print("The Number b is ",b)
+
+
+print_num(4,7)
+
+

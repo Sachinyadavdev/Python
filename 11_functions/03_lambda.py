@@ -21,3 +21,9 @@ print(multiply(4, 5))
 cude = lambda x: x**3
 
 print(cude(3))
+
+# Lambda Function Code 
+
+print_argument = lambda x: print("Printing the argument",x) # This is called as the Lamda function 
+
+print_argument(9)
