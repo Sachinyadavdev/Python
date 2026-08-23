@@ -27,3 +27,6 @@ class Programmer():
 p1 = Programmer()
 print(p1.get_salary())
 print(p1.get_bonus())
+
+class Player:
+    
