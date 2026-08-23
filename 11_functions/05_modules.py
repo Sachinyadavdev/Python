@@ -27,3 +27,5 @@ else:
 
 # My Practices
 print(math.sqrt(4))
+
+mymodule.sachin_function()

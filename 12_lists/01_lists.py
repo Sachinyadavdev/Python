@@ -5,6 +5,10 @@
 # print(marks[2])
 # print(mixed[4]) # Error Index out of bound
 
+def function_docstring():
+    """
+    This function helps in the docstring to get the speed and the space
+    """
 
 names = ["Alice", "Bob", "Rohan", 23, "Shivani"]
 
@@ -32,3 +36,5 @@ print(group)
 
 group.pop(2)
 print(group)
+
+print(function_docstring.__doc__)
