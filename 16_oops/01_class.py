@@ -42,3 +42,5 @@ player1 = Player
 
 print(player1.name)
 player1.get_name("Sachin Yadav")
+
+player1.set_salary()
