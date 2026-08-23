@@ -29,4 +29,16 @@ print(p1.get_salary())
 print(p1.get_bonus())
 
 class Player:
-    
+    name = "Sachin"
+
+    def set_salary():
+        print("The Salary is 5000")
+
+    def get_name(name):
+        print("The name of the person is ",name)
+
+
+player1 = Player
+
+print(player1.name)
+player1.get_name("Sachin Yadav")
