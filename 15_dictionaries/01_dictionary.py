@@ -14,3 +14,8 @@ print(marks1.values())
 marks1.pop("Chemistry")  # removes the key-value pair with key "chemistry"
 print(marks1)     
 
+name_roll = {"Sachin": 90, "Shubham": 50, "Mohan": 89}
+print(name_roll)
+print(name_roll["Sachin"])
+print(name_roll.keys())
+print(name_roll.values())
