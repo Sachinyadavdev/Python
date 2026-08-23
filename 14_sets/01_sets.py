@@ -3,7 +3,7 @@
 # print(s, type(s))
 # print(s[3]) # You are not allowed to do something like this
 
-set1 ={3,5,7,8}
+set1 = {3,5,7,8}
 
 print(set1)
 
