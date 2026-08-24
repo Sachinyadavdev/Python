@@ -56,3 +56,4 @@ class Parrot(Bird):
 B1 = Parrot("Parrot", "chip-chip")
 
 B1.bird_fly()
+B1.bird_shout()
