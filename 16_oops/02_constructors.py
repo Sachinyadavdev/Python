@@ -27,3 +27,18 @@ print(e1.get_salary())
 e1.get_info()
 print(p1.get_salary())
 p1.get_info()
+
+class Player:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def get_name(self):
+        print(f"The name of the player {self.name} and age {self.age}")
+
+
+pl1 = Player("Sachin",45)
+
+pl1.name = "Rahul"
+pl1.age = 78
+pl1.get_name()

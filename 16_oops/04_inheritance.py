@@ -39,3 +39,20 @@ d.speak()
 
 # ec1 = ElectricCar("Tesla", "Model 3", 75)
 # ec1.get_info()
+
+class Bird():
+    def __init__(self, name, bird_sound):
+        self.name = name
+        self.bird_sound = bird_sound
+
+    def bird_shout(self):
+        print(f"The bird {self.name} makes the sound {self.bird_sound}")
+
+class Parrot(Bird):
+    def bird_fly(self):
+        print(f"Bird is flying {self.name}")
+
+
+B1 = Parrot("Parrot", "chip-chip")
+
+B1.bird_fly()
