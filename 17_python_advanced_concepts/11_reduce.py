@@ -20,3 +20,9 @@ def multiply(a, b):
 
 d = reduce(multiply, numbers)
 print(d)
+
+def division(a,b):
+    return a / b
+
+e = reduce(division, numbers)
+print(e)

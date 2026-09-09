@@ -22,7 +22,7 @@
 # f= open("sachin.txt", "w")
 f= open("sachin.txt", "a")
 
-string = '''Sachin is a great cricketer. He is the best batsman in the world. He has scored 100 centuries in international cricket. He is also known as the God of Cricket.'''
+string = '''Sachin is aaaaa great cricketer. He is the best batsman in the world. He has scored 100 centuries in international cricket. He is also known as the God of Cricket.'''
 
 f.write(string)
 f.close()
