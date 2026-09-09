@@ -36,13 +36,24 @@
 #     except Exception as e:
 #         print("Something went wrong:", e)
 
-a = int(input("Enter number 1: "))
-b = int(input("Enter number 2: "))
+# a = int(input("Enter number 1: "))
+# b = int(input("Enter number 2: "))
 
-if a < 0 or b < 0:
-    raise ValueError("Please dont enter negative numbers")
-elif a == 0 or b == 0:
-    raise ValueError("Please dont enter 0")
-else:
-    print(f"The sum is {a + b}")
+# if a < 0 or b < 0:
+#     raise ValueError("Please dont enter negative numbers")
+# elif a == 0 or b == 0:
+#     raise ValueError("Please dont enter 0")
+# else:
+#     print(f"The sum is {a + b}")
 
+
+try:
+
+   a = input("Enter the value of A: ")
+   b = input("Enter the value of B: ")
+   a = int(a)
+   b = int(b)
+   print(f"The Sum value of A and B is {a+b}")
+
+except Exception as e:
+   print(e)

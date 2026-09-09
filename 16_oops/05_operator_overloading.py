@@ -19,3 +19,5 @@ p2 = Point(6, 3)
 p = p1 + p2 # We overloaded the + Operator by writing __add__ function
 p.print_point()
 
+c = p1.sum(p2)
+c.print_point()
