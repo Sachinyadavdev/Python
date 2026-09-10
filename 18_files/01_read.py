@@ -28,7 +28,7 @@ f.write(string)
 f.close()
 
 f2 = open("sachin.txt", "r")
-content = f2.read()
+content = f2.read() 
 f2.close()
 
-print(content)
+
