@@ -1,16 +1,16 @@
-shipment = [45,56,'sachin',89,'Ankit',89,'Mohan']
+shipments = [
+    "DEL101",
+    "DEL102",
+    "DEL103",
+    "DEL101",
+    "DEL104",
+    "DEL102",
+    "DEL105",
+    "DEL106",
+    "DEL103"
+]
 
-print(shipment)
+new_shipments = list(set(shipments))
 
-print(shipment[3])
-
-
-print(shipment[0])
-
-shipment.append("Diksha")
-print(shipment[-1])
-shipment.remove("sachin")
-print(shipment)
-print(len(shipment))  
-shipment.sort() 
-print(shipment)
+print("Unique Shipments:", new_shipments)
+print("Number of Unique Shipments:", len(new_shipments))
