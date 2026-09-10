@@ -1,2 +1,2 @@
-a = os.listdir("dir")
-print(a)
+l.rmtree("dir")
+# shutil.rmtree("john.txt")

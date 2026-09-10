@@ -1,6 +1,8 @@
 import shutil
 
 # shutil.rmtree("dir")
-# shutil.copy("harry.txt", "john.txt")
+# shutil.rmtree("john.txt")
+shutil.copy("Newfile.txt", "john.txt")
 
-shutil.move("harry.txt", "dir/")
+
+shutil.move("sachin.txt", "dir/")
