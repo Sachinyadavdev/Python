@@ -6,3 +6,7 @@ shipments = [
 
 for shipment in shipments:
     print(f"shipmentsh id : {shipment['id']}")
+
+
+for i in range(1, 6):
+    print(f"i : {i}")
